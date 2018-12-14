@@ -27,6 +27,7 @@ main {
 	height: 100%;
 }
 
+
 a {
 	color: black;
 	text-decoration: none;
@@ -79,13 +80,21 @@ a:hover, #indexhamburger:hover{
 .nav_title h3 {
 	font-size: 0.6em;
 	font-weight: 600;
+	margin-top: 1.6em;
+	margin-bottom: 0;
 }
 
-#navbar_content {
-	display: flex;
-	flex-direction: row;
-	flex-grow: 1;
-	justify-content: space-between;
+#footer_content {
+		position: relative;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 2vh;
+	
+		box-sizing: border-box;
+		background: transparent;
+		max-width: 50vw;
+		z-index: 1;
+		font-size: 1.1em;
 }
 
 .directory {
@@ -104,9 +113,6 @@ a:hover, #indexhamburger:hover{
 	justify-content: flex-end;
 }
 
-.nav_item {
-	
-}
 
 .nav_title > a > h1 {
 	margin-bottom: 0;
@@ -131,7 +137,7 @@ a:hover, #indexhamburger:hover{
 
 
 .nav_icon {
-	padding: 0 0.8em;
+	padding-left: 1.7em;
 }
 
 #hamburger {
