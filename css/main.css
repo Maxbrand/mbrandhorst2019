@@ -104,6 +104,7 @@ a:hover, #indexhamburger:hover{
 	max-width: 150px;
 	line-height: 1%;
 	text-align: right;
+	margin-bottom: -11px;
 }
 
 .social_icons {
@@ -174,7 +175,8 @@ a:hover, #indexhamburger:hover{
 	}
 
 #video_reel {
-	max-width: 100%
+	max-width: 100%;
+	border-radius: 20px;
 }
 
 #desktop_bg_video {
