@@ -117,7 +117,6 @@ a:hover, #indexhamburger:hover{
 
 .nav_title > a > h1 {
 	margin-bottom: 0;
-	margin-left: -0.05em;
 	font-size: 1.5em;
 	font-weight: 600;
 }
@@ -300,13 +299,9 @@ a:hover, #indexhamburger:hover{
 
 	#indexhamburger {
 		display: flex;
-
 		flex-direction: row-reverse;
-
 		margin-left: auto;
-
 		margin-bottom: auto;
-
 		margin-top: auto;
 	}
 
@@ -339,7 +334,6 @@ a:hover, #indexhamburger:hover{
 		width:90vw;
 		margin-bottom: 0.5em;
 		font-size: 1em;
-		margin-left: -0.1em;
 	}
 
 	.nav_title h1 {
@@ -406,15 +400,22 @@ a:hover, #indexhamburger:hover{
 	}
 
 	.nav_title > a > h1 {
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 	.nav_title > a > h2 {
 		font-size: 0.9em;
-		letter-spacing: 0.28em;	
+		letter-spacing: 0.4em;
+		margin-bottom: 0.7em;	
+	}
+
+	.nav_icon {
+		padding: 1em;
+		font-size: 1.1em;
 	}
 
 	#indexhamburger {
-		font-size: 1.2em;
+		font-size: 1.8em;
+		margin-bottom: 8px;
 	}
 
 	.background_video {
@@ -451,17 +452,6 @@ a:hover, #indexhamburger:hover{
 		padding-top: 4em;
 	}
 
-	main {
-		padding-top: 1em;
-	}
-	
-
 }
 	
 
-
-@media (max-width: 449px) {
-	.about img {
-		max-width: 100%;
-	}
-}
