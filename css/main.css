@@ -337,10 +337,16 @@ a:hover, #indexhamburger:hover{
 		position: absolute;
 		flex-direction: column;
 		justify-content: space-between;
-		background-color: rgb(255, 255, 255);
 		border-bottom-left-radius: 5px;
 		border-bottom-right-radius: 5px;
-		width: 80vw;
+		width: 76vw;
+		padding-top: 1vh;
+	}
+
+	.nav_item h3 {
+		margin-top: 1.2em;
+		margin-bottom: 1.2em;
+		font-size
 	}
 
 	.directory {
@@ -364,7 +370,6 @@ a:hover, #indexhamburger:hover{
 		font-size: 1.8em;
 		margin-bottom: 8px;
 	}
-
 
 	.whitetextdropdown {
 		color: black;
