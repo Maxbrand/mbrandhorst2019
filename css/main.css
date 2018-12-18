@@ -164,14 +164,8 @@ a:hover, #indexhamburger:hover{
 
 #video_reel_phone {
 	display: block;
-	position: fixed;
-	top: -34px;
-	left: 0;
-	right:0;
-	min-width:100%;
-	min-height: 100%;
-	max-height: 115%;
-	background-color: black;
+	width: 100%;
+	border-radius: 10px;
 	}
 
 #video_reel {
@@ -401,9 +395,22 @@ a:hover, #indexhamburger:hover{
 }
 
 @media (max-width: 600px) {
+
+	.nav_title > a > h1 {
+		font-size: 0.9em;
+	}
+	.nav_title > a > h2 {
+		font-size: 0.9em;
+		letter-spacing: 0.28em;	
+	}
+
+	#indexhamburger {
+		font-size: 1.2em;
+	}
+
 	.background_video {
-		max-width: 120vw;
-		max-height: 100vh;
+		max-width: 70vw;
+		padding-top: 0;
 	}
 
 	.fancybox-slide--video .fancybox-content {
@@ -439,10 +446,9 @@ a:hover, #indexhamburger:hover{
 		padding-top: 3em;
 	}
 	
-	/*.video_overlay {
-		left: 30vw;
-	}*/
+
 }
+	
 
 
 @media (max-width: 449px) {
