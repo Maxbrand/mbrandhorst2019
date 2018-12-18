@@ -7,7 +7,7 @@
 		<meta lang="en"> 
 		<meta name="author" content="Moa Nyman">
 		<meta name="copyright" content="Moa Nyman">
-		<meta name="description" content="Max Brandhorst-Satzkorn, Cinematographer based in Stockholm."/>
+		<meta name="description" content="Max Brandhorst-Satzkorn, Cinematographer based in Stockholm." />
 		<meta property="og:title"	content="Max Brandhorst-Satzkorn, Cinematographer" />
 		<meta property="og:image"	content="https://mbrandhorst.com/media/max0,5.png" />
 		<meta property="og:url"		content="https://mbrandhorst.com" />
@@ -28,36 +28,28 @@
 		<!-- google fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-
+		<!-- fancybox -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+		
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	</head>
 
 	<body class="body">
 		<nav class="navbar">
 			<div class="nav_title" id="fade_in_title">
-				<a href="./index"><h1>Max Brandhorst</h1><br>
+				<a href="#" class="whitetext"><h1>Max Brandhorst-Satzkorn</h1><br>
 				<h2>Cinematographer</h2></a>
-				<button id="hamburger"><i class="fas fa-bars"></i></button>
-			</div>
-			<div id="navbar_content">
+				<button id="indexhamburger"><i class="fas fa-bars"></i></button>
 				<div class="directory">
-					<div class="nav_projects nav_item" onclick="">
-						<span>projects</span>
-						<div id="nav_projects_dropdown">
-							<div><a href="./projects-narrative">narrative</a></div>
-							<div><a href="./projects-corporate">corporate</a></div>
-						</div>
-					</div>
-					<div class="nav_about nav_item"><a href="#">about me</a></div>
-					<div class="nav_about nav_item" ><a href="https://blog.mbrandhorst.com/">blog</a></div>
+					<div class="nav_reel nav_item" ><a data-fancybox href="https://vimeo.com/276883004"><h3>reel</h3></a></div>
 
-				</div>
-				<div class="social_icons">
-					<div class="nav_icon"><a href="https://instagram.com/maxbrandop"><i class="fab fa-instagram"></i></a></div>
-					<div class="nav_icon"><a href="mailto:max.brandhorst@gmail.com"><i class="far fa-envelope"></i></a></div>
-					<div class="nav_icon"><a href="tel:+46706081728"><i class="fas fa-phone"></i></a></div>
-				</div>
+							<div class="nav_projects nav_item" class="whitetextdropdown"><a href="./projects-narrative" class="whitetextdropdown"><h3>projects</h3></a></div>
+							<div class="nav_about nav_item" class="whitetextdropdown"><a href="./about" class="whitetextdropdown"><h3>about</h3></a></div>
+							<div class="nav_about nav_item" class="whitetextdropdown"><a href="https://blog.mbrandhorst.com/" class="whitetextdropdown"><h3>blog</h3></a></div>
+					</div>
 			</div>
 		</nav>
+		
 		<main>
 			<div class="about">
 				<div class="description">

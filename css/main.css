@@ -43,7 +43,7 @@ a:hover, #hamburger:hover{
 #indexhamburger {
 	display: none;
 	font-size: 1.5em;
-	color: white;
+	color: black;
 	border: none;
 	background: transparent;
 	outline: none;
@@ -226,8 +226,7 @@ a:hover, #indexhamburger:hover{
 }
 
 .about img {
-	max-width: 400px;
-	max-height: 400px;
+	max-width: 25vw;
 	flex-grow: 0;
 	padding: 1em 0 2em;
 }
@@ -238,7 +237,7 @@ a:hover, #indexhamburger:hover{
 	justify-content: center;
 	align-items: center;
 	flex-shrink: 0;
-	padding-top: 12em;
+	padding-top: 5vh;
 	width: 40vw;
 }
 
@@ -259,56 +258,38 @@ a:hover, #indexhamburger:hover{
 /* projects */
 
 .project_grid {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around; 
-	padding-top: 12em;
-	height: 100vh;
+	flex-flow: column;
+
+	padding-top: 2vh;
+	width:50vw;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .project_grid iframe {
-	width: 900px;
+	width: 50vw;
 	display: block;
 	flex-grow: 0;
-	height: 500px;
+	height: 50vh;
 }
 
 @media (min-width: 2700px){
-	.description {
-		width: 30vw;
-	}
 	.project_grid iframe {
-		width: 1100px;
-		height: 700px;
+		height: 55vh;
 	}
 }
 
 
-@media (min-width: 1025px){
-	#indexnavbar {
-		padding: 7em 15em 0em;
-	}
-}
-
-
-@media (max-width: 1320px) {
-	nav {
-		padding: 3em 10em 0em;
-	}
-	.description {
-		width: 40vw;
+@media (max-width: 1375px) {
+	.project_grid iframe {
+		height: 35vh;
 	}
 	.introduction {
 		width: 35vw;
 	}
 }
 @media (max-width: 1024px) {
-	nav {
-		flex-direction: column;
-		padding-top: 1em;
-		padding: 0em 0em 0em;
-	}
-
+	
 	#navbar_content {
 		display: none;
 		flex-direction: column;
@@ -324,7 +305,15 @@ a:hover, #indexhamburger:hover{
 	}
 
 	#indexhamburger {
-		display: inline-block;
+		display: flex;
+
+		flex-direction: row-reverse;
+
+		margin-left: auto;
+
+		margin-bottom: auto;
+
+		margin-top: auto;
 	}
 
 	#hamburger {
@@ -336,7 +325,7 @@ a:hover, #indexhamburger:hover{
 	}
 
 	.directory {
-		flex-direction: column;
+		display: none;
 	}
 
 	.video_overlay {
