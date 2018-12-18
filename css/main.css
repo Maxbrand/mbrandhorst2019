@@ -339,14 +339,14 @@ a:hover, #indexhamburger:hover{
 		justify-content: space-between;
 		border-bottom-left-radius: 5px;
 		border-bottom-right-radius: 5px;
-		width: 76vw;
+		width: 78vw;
 		padding-top: 1vh;
 	}
 
 	.nav_item h3 {
 		margin-top: 1.2em;
 		margin-bottom: 1.2em;
-		font-size
+		font-size: 1.3em;
 	}
 
 	.directory {
