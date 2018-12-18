@@ -313,9 +313,6 @@ a:hover, #indexhamburger:hover{
 		color: black;
 	}
 
-	.directory {
-		display: none;
-	}
 
 	.video_overlay {
 		flex-direction: column;
