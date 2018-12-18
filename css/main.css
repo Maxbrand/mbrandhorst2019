@@ -398,6 +398,11 @@ a:hover, #indexhamburger:hover{
 
 	nav {
 		margin-top: 2vh;
+		max-width: 70vw;
+	}
+
+	.nav_title {
+		max-width: 70vw;
 	}
 
 	.nav_title > a > h1 {
@@ -447,7 +452,7 @@ a:hover, #indexhamburger:hover{
 	}
 
 	main {
-		padding-top: 3em;
+		padding-top: 1em;
 	}
 	
 
