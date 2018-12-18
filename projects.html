@@ -32,21 +32,43 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
 		
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+		<script>
+			toggleMenu = () => {
+				let element = document.getElementById("mobile-nav")
+				element.style.height = element.style.height === '0px' ? '125px' : '0px';
+			}
+		</script>
 	</head>
+
 
 	<body class="body">
 		<nav class="navbar">
+			<div id="mobilemenu">
+				<ul id="mobile-nav">
+					<li><a data-fancybox href="https://vimeo.com/276883004">reel</a></li>
+					<li><a href="./projects">projects</a></li>
+					<li><a href="./about">about</a></li>
+					<li><a href="https://blog.mbrandhorst.com">blog</a></li>
+					<hr>
+				</ul>
+				
+				<a onclick=toggleMenu()>menu</a>
+				<hr>
+			</div>
 			<div class="nav_title" id="fade_in_title">
-				<a href="./index" class="whitetext"><h1>Max Brandhorst-Satzkorn</h1><br>
-				<h2>Cinematographer</h2></a>
-				<button id="indexhamburger"><i class="fas fa-bars"></i></button>
+				<a href="./index" class="whitetext">
+					<h1>Max Brandhorst-Satzkorn</h1><br>
+					<h2>Cinematographer</h2>
+				</a>
+				<!--<button id="indexhamburger"><i class="fas fa-bars"></i></button> -->
 			</div>
 			<div id="navbar_content">
 				<div class="directory">
 					<div class="nav_reel nav_item" ><a data-fancybox href="https://vimeo.com/276883004"><h3>reel</h3></a></div>
-							<div class="nav_projects nav_item" class="whitetextdropdown"><a href="./projects" class="whitetextdropdown"><h3>projects</h3></a></div>
-							<div class="nav_about nav_item" class="whitetextdropdown"><a href="./about" class="whitetextdropdown"><h3>about</h3></a></div>
-							<div class="nav_about nav_item" class="whitetextdropdown"><a href="https://blog.mbrandhorst.com/" class="whitetextdropdown"><h3>blog</h3></a></div>
+						<div class="nav_projects nav_item" class="whitetextdropdown"><a href="./projects" class="whitetextdropdown"><h3>projects</h3></a></div>
+						<div class="nav_about nav_item" class="whitetextdropdown"><a href="./about" class="whitetextdropdown"><h3>about</h3></a></div>
+						<div class="nav_about nav_item" class="whitetextdropdown"><a href="https://blog.mbrandhorst.com/" class="whitetextdropdown"><h3>blog</h3></a></div>
 					</div>
 				</div>
 			</div>
