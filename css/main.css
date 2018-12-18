@@ -118,6 +118,7 @@ a:hover, #indexhamburger:hover{
 	margin-bottom: 0;
 	font-size: 1.5em;
 	font-weight: 600;
+	margin-left: -4px;
 }
 
 .nav_title {
@@ -305,6 +306,13 @@ a:hover, #indexhamburger:hover{
 
 
 @media (max-width: 1024px) {
+
+	a {
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
 	nav {
 		margin-top: 2vh;
 		max-width: 70vw;
@@ -496,9 +504,15 @@ a:hover, #indexhamburger:hover{
 		width: 70vw;
 		height: 25vh;
 	}
-
-
-
 }
 	
+#mobile-nav {
+	list-style: none;
+	padding: 0;
+	height: 0;
+	overflow: hidden;
+}
 
+.mobilenav-open {
+	height: 255px;
+} 
