@@ -396,6 +396,10 @@ a:hover, #indexhamburger:hover{
 
 @media (max-width: 600px) {
 
+	nav {
+		margin-top: 2vh;
+	}
+
 	.nav_title > a > h1 {
 		font-size: 0.9em;
 	}
