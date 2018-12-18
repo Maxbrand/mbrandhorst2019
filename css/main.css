@@ -288,7 +288,7 @@ a:hover, #indexhamburger:hover{
 	width: 50vw;
 	display: block;
 	flex-grow: 0;
-	height: 50vh;
+	height: 35vh;
 }
 
 @media (min-width: 2700px){
@@ -300,10 +300,16 @@ a:hover, #indexhamburger:hover{
 
 @media (max-width: 1375px) {
 	.project_grid iframe {
-		height: 35vh;
+		height: 30vh;
 	}
 	.introduction {
 		width: 35vw;
+	}
+}
+
+@media (max-width: 1215px) {
+	.project_grid iframe {
+		height: 25vh;
 	}
 }
 
@@ -444,6 +450,23 @@ a:hover, #indexhamburger:hover{
 		font-size: 2em;
 	}
 
+	.project_grid {
+		width: 70vw;
+	}
+
+	.project_grid iframe {
+		height: 26vh;
+		width: 70vw;
+	}
+
+	.description {
+		padding-top: 0;
+	}
+
+	.about img {
+		max-width: 35vw;
+	}
+
 }
 
 
@@ -481,16 +504,13 @@ a:hover, #indexhamburger:hover{
 		border-bottom: transparent;
 	}
 	
-	.description {
-		padding-top: 4em;
-}
+	
 }
 
 
 
 @media (max-width: 600px) {
 
-	
 	.nav_title > a > h1 {
 		font-size: 1em;
 	}
@@ -504,9 +524,6 @@ a:hover, #indexhamburger:hover{
 		padding: 1em;
 		font-size: 1.1em;
 	}
-
-
-
 
 	.fancybox-slide--video .fancybox-content {
 		height  : 30% !important;
@@ -523,11 +540,10 @@ a:hover, #indexhamburger:hover{
 	.about img {
 		max-width: 70vw;
 		padding: 0;
-}
+	}
 
 	.description {
 		width: 70vw;
-		padding-top: 3vh;
 	}
 
 	.introduction {
@@ -540,7 +556,7 @@ a:hover, #indexhamburger:hover{
 	
 	.project_grid iframe {
 		width: 70vw;
-		height: 25vh;
+		height: 16vh;
 	}
 }
 
