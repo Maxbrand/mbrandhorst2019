@@ -59,6 +59,27 @@ a:hover, #indexhamburger:hover{
 	overflow: hidden;
 }
 
+#mobilemenu {
+	display:none;
+	font-family: 'Karla';
+	font-size: 1.4em;
+}
+	
+#mobile-nav {
+	list-style: none;
+	padding: 0;
+	height: 0;
+	overflow: hidden;
+	transition: 0.5s;
+	margin-bottom: 0px;
+}
+
+.mobilenav-open {
+	height: 125px;
+} 
+
+
+
 
 
 .nav_title {
@@ -323,14 +344,36 @@ a:hover, #indexhamburger:hover{
 		max-width: 70vw;
 	}
 
+	#mobilemenu {
+		display: block;
+		font-family: 'Karla';
+		font-size: 1.4em;
+	}
+		
+	#mobile-nav {
+		list-style: none;
+		padding: 0;
+		height: 0;
+		overflow: hidden;
+		transition: 0.5s;
+		margin-bottom: 0px;
+	}
+	
+	.mobilenav-open {
+		height: 125px;
+	} 
+	
+	hr { 
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
 	.background_video {
 		max-width: 70vw;
 		padding-top: 0;
 	}
 
-	#navbar_content {
-		width: 70vw;
-	}
+
 	
 	.directory {
 		margin-left: auto;
@@ -421,22 +464,17 @@ a:hover, #indexhamburger:hover{
 	}
 
 
-
-
-
-	
-
 	.nav_title {
 		margin-bottom: 0.5em;
-		font-size: 1em;
+		font-size: 1.3em;
 	}
 
 	.nav_title h1 {
 		font-size: 1.5em;
 	}
 
-	.nav_title h2 {
-		letter-spacing: 0.21em;
+	.nav_icon {
+		font-size: 1.6em;
 	}
 
 	.experience {
@@ -506,25 +544,3 @@ a:hover, #indexhamburger:hover{
 	}
 }
 
-#mobilemenu {
-	font-family: 'Karla';
-	font-size: 1.4em;
-}
-	
-#mobile-nav {
-	list-style: none;
-	padding: 0;
-	height: 0;
-	overflow: hidden;
-	transition: 0.5s;
-	margin-bottom: 0px;
-}
-
-.mobilenav-open {
-	height: 125px;
-} 
-
-hr { 
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
