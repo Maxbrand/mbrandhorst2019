@@ -285,7 +285,26 @@ a:hover, #indexhamburger:hover{
 	}
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 1025px) {
+	#desktop_bg_video {
+		display: block;
+		max-width: 100%;
+	}
+	#mobile_bg_video {
+		display: none;
+	}
+	nav {
+		display:flex
+	}
+
+	#navbar_content {
+		margin-left: auto;
+	}
+}
+
+
+
+@media (max-width: 1024px) {
 	nav {
 		margin-top: 2vh;
 		max-width: 70vw;
@@ -312,16 +331,63 @@ a:hover, #indexhamburger:hover{
 	#footer_content {
 		max-width: 70vw;
 	}
-}
-
-@media (min-width: 801px) {
-	nav {
-		display:flex
-	}
 
 	#navbar_content {
-		margin-left: auto;
+		display: none;
+		position: absolute;
+		flex-direction: column;
+		justify-content: space-between;
+		background-color: rgb(255, 255, 255);
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		width: 80vw;
 	}
+
+	.directory {
+		text-align: left;
+		margin-bottom: 0;
+	}
+
+	.social_icons {
+		justify-content: center;
+	}
+
+	#indexhamburger {
+		display: flex;
+		flex-direction: row-reverse;
+		margin-left: auto;
+		margin-bottom: auto;
+		margin-top: auto;
+	}
+
+	#indexhamburger {
+		font-size: 1.8em;
+		margin-bottom: 8px;
+	}
+
+
+	.whitetextdropdown {
+		color: black;
+	}
+
+	.video_overlay {
+		flex-direction: column;
+	}
+	.overlay_button {
+		display: none;
+		font-size: 1.1em;
+		padding: 1.2em;
+	}
+	
+	.nav_reel {
+		Display: inline-block;
+	}
+
+	.nav_icon {
+		padding: 2em;
+		font-size: 2em;
+	}
+
 }
 
 
@@ -345,54 +411,7 @@ a:hover, #indexhamburger:hover{
 
 
 
-	#navbar_content {
-		display: none;
-		flex-direction: column;
-		justify-content: space-between;
-		background-color: rgb(255, 255, 255);
-		border-bottom-left-radius: 5px;
-		border-bottom-right-radius: 5px;
-	}
-
-	.directory {
-		text-align: center;
-		margin-bottom: 0;
-
-	}
-
-	.social_icons {
-		justify-content: center;
-	}
-
-	#indexhamburger {
-		display: flex;
-		flex-direction: row-reverse;
-		margin-left: auto;
-		margin-bottom: auto;
-		margin-top: auto;
-	}
-
-	#hamburger {
-		display: inline-block;
-	}
-
-	.whitetextdropdown {
-		color: black;
-	}
-
-
-	.video_overlay {
-		flex-direction: column;
-	}
-	.overlay_button {
-		display: none;
-		font-size: 1.1em;
-		padding: 1.2em;
-	}
 	
-	.nav_reel {
-		Display: inline-block;
-	}
 
 	.nav_title {
 		margin-bottom: 0.5em;
@@ -417,18 +436,6 @@ a:hover, #indexhamburger:hover{
 }
 
 
-@media (min-width: 601px) {
-	#desktop_bg_video {
-		display: block;
-		max-width: 100%;
-	}
-	#mobile_bg_video {
-		display: none;
-	}
-}
-
-
-
 
 @media (max-width: 600px) {
 
@@ -447,10 +454,7 @@ a:hover, #indexhamburger:hover{
 		font-size: 1.1em;
 	}
 
-	#indexhamburger {
-		font-size: 1.8em;
-		margin-bottom: 8px;
-	}
+
 
 
 	.fancybox-slide--video .fancybox-content {
