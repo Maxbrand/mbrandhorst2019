@@ -307,11 +307,6 @@ a:hover, #indexhamburger:hover{
 	}
 }
 
-@media (max-width: 1215px) {
-	.project_grid iframe {
-		height: 25vh;
-	}
-}
 
 @media (min-width: 1025px) {
 	#desktop_bg_video {
@@ -455,7 +450,7 @@ a:hover, #indexhamburger:hover{
 	}
 
 	.project_grid iframe {
-		height: 26vh;
+		height: 30vh;
 		width: 70vw;
 	}
 
@@ -556,7 +551,7 @@ a:hover, #indexhamburger:hover{
 	
 	.project_grid iframe {
 		width: 70vw;
-		height: 16vh;
+		height: 24vh;
 	}
 }
 
