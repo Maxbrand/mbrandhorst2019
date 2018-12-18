@@ -338,7 +338,7 @@ a:hover, #indexhamburger:hover{
 	}
 
 	.nav_title {
-		width:90vw;
+		width:70vw;
 		margin-bottom: 0.5em;
 		font-size: 1em;
 	}
@@ -371,7 +371,7 @@ a:hover, #indexhamburger:hover{
 	}
 
 	.description {
-		width: 55vw;
+		width: 50vw;
 	}
 
 	.introduction {
@@ -437,8 +437,14 @@ a:hover, #indexhamburger:hover{
 		display: block;
 	}
 
+	.about img {
+		max-width: 70vw;
+		padding: 0;
+}
+
 	.description {
-		width: 100vw;
+		width: 70vw;
+		padding-top: 3vh;
 	}
 
 	.introduction {
