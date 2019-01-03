@@ -45,7 +45,7 @@
 		
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-		<script>
+		<script async>
 			toggleMenu = () => {
 				let element = document.getElementById("mobile-nav")
 				element.style.height = element.style.height === '0px' ? '125px' : '0px';
@@ -99,23 +99,10 @@
 	</body>
 
 	<!-- jQuery -->
-	<script src="https://code.jquery.com/jquery.js"></script>
+	<script async src="https://code.jquery.com/jquery.js"></script>
 
 	<!-- font awesome -->
-	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<script async src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
-	<!-- local -->
-	<script src="js/about.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			let navbar = document.getElementById("navbar_content")
-
-			document.getElementById("indexhamburger").onclick = function(){
-				let navbar_style = getComputedStyle(navbar, null).display;
-				if (navbar_style == "none")
-					navbar.style.display = "flex"
-				else navbar.style.display = "none"
-			}
-		})
-	</script>
+	
 </html>
