@@ -98,10 +98,23 @@
 	</body>
 
 	<!-- jQuery -->
-	<script async src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://code.jquery.com/jquery.js"></script>
 
 	<!-- font awesome -->
 	<script async src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+	<!-- fancybox light box -->
+	<script async src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+
+	<script async type="text/javascript">
+	$('[data-fancybox]').fancybox({
+	toolbar  : false,
+	smallBtn : true,
+	iframe : {
+		preload : false
+	}
+	})
+	</script>
 
 	
 </html>
