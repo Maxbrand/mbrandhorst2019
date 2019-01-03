@@ -35,24 +35,6 @@ a {
 	align-self: center;
 }
 
-a:hover, #hamburger:hover{
-	transition: 0.2s;
-	color: pink;
-}
-
-#indexhamburger {
-	display: none;
-	font-size: 1.5em;
-	color: black;
-	border: none;
-	background: transparent;
-	outline: none;
-}
-
-a:hover, #indexhamburger:hover{
-	transition: 0.2s;
-	color: pink;
-}
 
 #blackbackground {
 	background-color:black;
@@ -202,39 +184,6 @@ a:hover, #indexhamburger:hover{
 }
 
 
-.video_overlay {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	z-index: 1;
-	position: absolute;
-	left: auto;
-}
-
-.overlay_button {
-	font-family: 'Montserrat';
-	font-size: 1em;
-	font-weight: 600;
-	color: #434141;
-	background-color: #ffffff;
-	width: 17em;
-	border-radius: 10px;
-	transition: 0.2s;
-	padding: 1.4em;
-	margin: 2em;
-	border-width: 0px;
-	border-style: solid;
-	outline: none;
-}
-
-
-
-.overlay_button:hover {
-	color: #000000;
-	cursor: pointer;
-	background-color:#ffffffcc;
-}
-
 /* about */
 .about {
 	display: flex;
@@ -263,14 +212,6 @@ a:hover, #indexhamburger:hover{
 	display: inline-block
 }
 
-.experience {
-	display: none;
-	text-align: left;
-	margin-top: 10vh;
-	margin-bottom: 20vh;
-	border-bottom: solid 1px black;
-	flex-shrink: 0;
-}
 
 /* projects */
 
@@ -359,9 +300,6 @@ a:hover, #indexhamburger:hover{
 		margin-bottom: 0px;
 	}
 	
-	.mobilenav-open {
-		height: 125px;
-	} 
 	
 	hr { 
 		margin-top: 10px;
@@ -408,20 +346,6 @@ a:hover, #indexhamburger:hover{
 	.social_icons {
 		justify-content: center;
 	}
-
-	#indexhamburger {
-		display: flex;
-		flex-direction: row-reverse;
-		margin-left: auto;
-		margin-bottom: auto;
-		margin-top: auto;
-	}
-
-	#indexhamburger {
-		font-size: 1.8em;
-		margin-bottom: 8px;
-	}
-
 
 	.video_overlay {
 		flex-direction: column;
