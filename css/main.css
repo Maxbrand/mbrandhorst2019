@@ -250,7 +250,6 @@ a:hover, #indexhamburger:hover{
 }
 
 .description {
-	display: none;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
