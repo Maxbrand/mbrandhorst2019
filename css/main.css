@@ -35,6 +35,9 @@ a {
 	align-self: center;
 }
 
+a:hover {
+	color: pink;
+}
 
 #blackbackground {
 	background-color:black;
@@ -60,9 +63,9 @@ a {
 	height: 125px;
 } 
 
-
-
-
+#menu {
+	cursor: pointer;
+}
 
 .nav_title {
 	display: flex;
