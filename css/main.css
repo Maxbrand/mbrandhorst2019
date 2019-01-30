@@ -214,7 +214,6 @@ a:hover {
 
 .project_grid iframe {
 	width: 50vw;
-	display: block;
 	flex-grow: 0;
 	height: 35vh;
 }
@@ -222,6 +221,13 @@ a:hover {
 @media (min-width: 2700px){
 	.project_grid iframe {
 		height: 55vh;
+	}
+}
+
+@media (min-width: 2000px){
+	.project_grid iframe {
+		height: 45vh;
+		width: 40vw;
 	}
 }
 
