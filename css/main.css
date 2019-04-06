@@ -204,11 +204,6 @@ a:hover {
   margin-top: 20px;
 }
 
-.project_gridsgsgse iframesgse {
-  width: 50vw;
-  flex-grow: 0;
-  height: 35vh;
-}
 
 .resp-container {
   position: relative;
@@ -232,23 +227,10 @@ a:hover {
   border: 0;
 }
 
-@media (min-width: 2700px) {
-  .project_gridsgsgse iframesgse {
-    height: 55vh;
-  }
-}
 
-@media (min-width: 2000px) {
-  .project_gridsgsgse iframesgse {
-    height: 45vh;
-    width: 40vw;
-  }
-}
+
 
 @media (max-width: 1375px) {
-  .project_gridsgsgse iframesgse {
-    height: 30vh;
-  }
   .introduction {
     width: 35vw;
   }
@@ -368,11 +350,6 @@ a:hover {
     width: 70vw;
   }
 
-  .project_gridsgsgse iframesgse {
-    height: 30vh;
-    width: 70vw;
-  }
-
   .description {
     padding-top: 0;
   }
@@ -460,8 +437,5 @@ a:hover {
     width: 70vw;
   }
 
-  .project_gridsgsgse iframesgse {
-    width: 70vw;
-    height: 24vh;
-  }
+
 }
