@@ -234,13 +234,13 @@ a:hover {
 }
 
 @media (min-width: 2700px){
-	.project_grid iframe {
+	.project_gridsgsgse iframesgse {
 		height: 55vh;
 	}
 }
 
 @media (min-width: 2000px){
-	.project_grid iframe {
+	.project_gridsgsgse iframesgse {
 		height: 45vh;
 		width: 40vw;
 	}
@@ -248,7 +248,7 @@ a:hover {
 
 
 @media (max-width: 1375px) {
-	.project_grid iframe {
+	.project_gridsgsgse iframesgse {
 		height: 30vh;
 	}
 	.introduction {
