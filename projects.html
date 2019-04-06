@@ -19,6 +19,14 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
 		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="stylesheet" href="css/main.css">
+		<!-- google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+		<!-- fancybox -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<meta name="apple-mobile-web-app-title" content="mbrandhorst.com">
 		<meta name="application-name" content="mbrandhorst.com">
 		<meta name="msapplication-TileColor" content="#2d89ef">
@@ -29,20 +37,11 @@
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-49575020-1"></script>
 		<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'UA-49575020-1');
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-49575020-1');
 		</script>
-
-		<link rel="stylesheet" href="css/main.css">
-		<!-- google fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-		<!-- fancybox -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
-
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 		<script async>
 			toggleMenu = () => {
@@ -52,28 +51,27 @@
 		</script>
 	</head>
 
-
 	<body class="body">
 
-			<!-- FB SDK-->
-			<script>
-					window.fbAsyncInit = function() {
-					  FB.init({
-						appId      : '1753308494692595',
-						xfbml      : true,
-						version    : 'v3.2'
-					  });
-					  FB.AppEvents.logPageView();
-					};
+		<!-- FB SDK-->
+		<script>
+			window.fbAsyncInit = function() {
+				FB.init({
+				appId      : '1753308494692595',
+				xfbml      : true,
+				version    : 'v3.2'
+				});
+				FB.AppEvents.logPageView();
+			};
 
-					(function(d, s, id){
-					   var js, fjs = d.getElementsByTagName(s)[0];
-					   if (d.getElementById(id)) {return;}
-					   js = d.createElement(s); js.id = id;
-					   js.src = "https://connect.facebook.net/en_US/sdk.js";
-					   fjs.parentNode.insertBefore(js, fjs);
-					 }(document, 'script', 'facebook-jssdk'));
-				  </script>
+			(function(d, s, id){
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) {return;}
+				js = d.createElement(s); js.id = id;
+				js.src = "https://connect.facebook.net/en_US/sdk.js";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
 
 		<nav class="navbar">
 			<div id="mobilemenu">
@@ -107,24 +105,24 @@
 
 		<main>
 			<div class="project_grid">
-					<div class="resp-container resp-2by1">
-							<iframe class="resp-iframe" src="https://player.vimeo.com/video/253673229" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
-						</div>
-					<div class="resp-container resp-2by1">
-							<iframe class="resp-iframe" src="https://player.vimeo.com/video/253673046" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
-						</div>
-					<div class="resp-container resp-16by9">
-							<iframe class="resp-iframe" src="https://www.youtube.com/embed/5M5KJGpOy3c" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
-						</div>
-					<div class="resp-container resp-16by9">
-							<iframe class="resp-iframe" src="https://player.vimeo.com/video/260642438" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
-						</div>
-					<div class="resp-container resp-16by9">
-							<iframe class="resp-iframe" src="https://player.vimeo.com/video/260642603" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
-						</div>
-					<div class="resp-container resp-16by9">
-							<iframe class="resp-iframe" src="https://player.vimeo.com/video/253673144" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
-						</div>
+				<div class="resp-container resp-2by1">
+					<iframe class="resp-iframe" src="https://player.vimeo.com/video/253673229" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
+				</div>
+				<div class="resp-container resp-2by1">
+					<iframe class="resp-iframe" src="https://player.vimeo.com/video/253673046" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
+				</div>
+				<div class="resp-container resp-16by9">
+					<iframe class="resp-iframe" src="https://www.youtube.com/embed/5M5KJGpOy3c" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
+				</div>
+				<div class="resp-container resp-16by9">
+					<iframe class="resp-iframe" src="https://player.vimeo.com/video/260642438" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
+				</div>
+				<div class="resp-container resp-16by9">
+					<iframe class="resp-iframe" src="https://player.vimeo.com/video/260642603" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
+				</div>
+				<div class="resp-container resp-16by9">
+					<iframe class="resp-iframe" src="https://player.vimeo.com/video/253673144" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
+				</div>
 				<!-- <iframe src="https://player.vimeo.com/video/253673229" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<iframe src="https://player.vimeo.com/video/253673046" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<iframe src="https://www.youtube.com/embed/5M5KJGpOy3c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -153,6 +151,4 @@
 	}
 	})
 	</script>
-
-
 </html>
