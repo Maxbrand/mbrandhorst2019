@@ -212,14 +212,17 @@ a:hover {
 
 .resp-16by9 {
   padding-top: 56.25%;
+  border-radius: 20px;
 }
 
 .resp-17by9 {
   padding-top: 52.94%;
+  border-radius: 20px;
 }
 
 .resp-2by1 {
   padding-top: 50%;
+  border-radius: 20px;
 }
 
 .resp-iframe {
