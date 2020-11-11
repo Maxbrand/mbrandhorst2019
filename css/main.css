@@ -369,9 +369,11 @@ a:hover {
 @media (max-width: 800px) {
   .fancybox-slide--video .fancybox-content {
     height: 50%;
+    border-radius: 20px;
   }
   .fancybox-slide--iframe .fancybox-content {
     height: 50% !important;
+    border-radius: 20px;
   }
 
   .description {
@@ -417,10 +419,12 @@ a:hover {
 
   .fancybox-slide--video .fancybox-content {
     height: 30% !important;
+    border-radius: 20px;
   }
 
   .fancybox-slide--iframe .fancybox-content {
     height: 30%;
+    border-radius: 20px;
   }
 
   #mobile_bg_video {
